@@ -13,6 +13,6 @@ class Ideone
 		int n=s.nextInt();
 		int k=s.nextInt();
 		double re=n>>k;
-		System.out.print(Math.round(re*100.0)/100.0);
+		System.out.print("%.2f",re);
 	}
 }
